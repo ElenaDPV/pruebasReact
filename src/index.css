@@ -1,19 +1,52 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.pEmpezando{
-  color: red !important;
-}
-.h1Pruebas{
-  color: black;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2{
+  font-family: 'Fredoka One', sans-serif !important;
+}
+.nomWeb{
+  font-family: 'Fredoka One', sans-serif !important;
+}
+.logoBaGD{
+  background-color: white;
+  border: 3px solid #f7cad0;
+  border-radius: 100em;
+  width: 2em !important;
+  height: 2em !important;
+  background-image: url('../src/logo.png');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center ;
+  -webkit-border-radius: 100em;
+  -moz-border-radius: 100em;
+  -ms-border-radius: 100em;
+  -o-border-radius: 100em;
+}
+.navRose{
+  background-color: #f1e1e4e8;
+}
+.footer{
+  background-color: #f1e1e4e8;
+  height: 5em;
+}
+.btnRose{
+  border: 2px solid #f7cad0 !important;
+  background-color: white;
+  color: #f7b5bd;
+}
+.espacMarg{
+  margin-right: 0.5em;
+}
+.jumboTr{
+  background-color: rgba(169, 169, 169, 0.521);
+}
+.redSS2{
+  margin-left: 0.5em;
+}
+.redSS>div>a{
+  color: rgb(218, 128, 143);
 }
